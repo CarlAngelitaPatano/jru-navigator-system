@@ -1,0 +1,200 @@
+{
+    "20201234": {
+        "password": "password123",
+        "name": "Carl Patano",
+        "room": "Bldg H - Room 204",
+        "floor": 2,
+        "coords": {
+            "x": 48,
+            "y": 38
+        },
+        "role": "user"
+    },
+    "20209999": {
+        "password": "hello",
+        "name": "Maria Santos",
+        "room": "Bldg H - Room 110",
+        "floor": 1,
+        "coords": {
+            "x": 22,
+            "y": 70
+        },
+        "role": "user"
+    },
+    "24-263548": {
+        "password": "rvv2jz9e",
+        "name": "New User",
+        "room": "Bldg H - Room 305",
+        "floor": 3,
+        "coords": {
+            "x": 60,
+            "y": 45
+        },
+        "role": "user"
+    },
+    "24-263549": {
+        "password": "123456",
+        "name": "Joaquin Sibug",
+        "room": "H 402",
+        "floor": 4,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-263375": {
+        "password": "ramen",
+        "name": "Ram Leliza",
+        "room": "H-501",
+        "floor": 5,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-263177": {
+        "password": "yky1pd8e",
+        "name": "Emmanuel Sagarino",
+        "room": "H-404",
+        "floor": 4,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-262962": {
+        "password": "pasko",
+        "name": "Joaquin Sibug",
+        "room": "H-202",
+        "floor": 2,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-263494": {
+        "password": "12345678",
+        "name": "Kc Sarmiento",
+        "room": "H-401",
+        "floor": 4,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "18-301092": {
+        "password": "123456",
+        "name": "PRINCE JAMES SANTOS",
+        "room": "H-301",
+        "floor": 3,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-262933": {
+        "password": "pasko",
+        "name": "Ralph Guela",
+        "room": "G-34",
+        "floor": 3,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-264068": {
+        "password": "123poginicarl",
+        "name": "jk",
+        "room": "H-411",
+        "floor": 4,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "29-00678": {
+        "password": "22312",
+        "name": "Angelica Panganiban",
+        "room": "G-23",
+        "floor": 2,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "Admin-23": {
+        "password": "Vin$moke2001",
+        "name": "Administrator",
+        "room": "Admin Office",
+        "floor": 1,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "admin"
+    },
+    "123456-2": {
+        "password": "123456",
+        "name": "DADA",
+        "room": "H-444",
+        "floor": 4,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "Admin-24": {
+        "password": "AdminPass123",
+        "name": "New Admin",
+        "room": "Admin Office",
+        "floor": 1,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "admin"
+    },
+    "24-123456": {
+        "password": "0123456",
+        "name": "Carl Patano",
+        "room": "G-21",
+        "floor": 2,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "24-062301": {
+        "password": "$2y$10$uhDQWfOXSFZqAMnewXzpM.S4QeyGgSEsMO/DFseXPdUdY8oQCcnkS",
+        "name": "Angelo",
+        "room": "H-505",
+        "floor": 5,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "user"
+    },
+    "Admin-25": {
+        "password": "AdminPass2025",
+        "name": "Super Admin",
+        "room": "Admin Office",
+        "floor": 1,
+        "coords": {
+            "x": 0,
+            "y": 0
+        },
+        "role": "admin"
+    }
+}
