@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 🧭 JRU Navigator System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based **Campus Navigation and Management System** developed for **Jose Rizal University (JRU)**.  
+This system provides interactive campus features for students and administrators, including attendance tracking, registration, and reporting tools.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🧑‍💻 Login & Authentication
+- Secure login for **students** and **admins**.
+- Admin access to management reports and attendance.
+- JSON-based user storage for demonstration.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📝 Student Registration
+- New students can register their **Student ID** and credentials.
+- Data is stored locally (`users.json`) for login authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🗺️ Campus Map
+- Interactive **2D/3D map** of the JRU campus.
+- Mouse drag and zoom controls.
+- Faculty markers and tooltips for navigation.
 
-### `npm test`
+### 📊 Admin Dashboard
+- Sidebar with access to:
+  - **Campus Info**
+  - **3D Tour**
+  - **Campus Map**
+  - **Mission & Vision**
+  - **Faculty Directory**
+  - **Graph Report**
+  - **Management Report**
+  - **Settings**
+  - **Logout**
+- Visual **graph reports** showing total registered students.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ⏱️ Attendance Tracking
+- Admin can mark and view student attendance records.
+- Data stored in `attendance.json`.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧱 Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** React.js (with JSX and CSS Modules)
+- **Backend:** Node.js + PHP (for local data handling)
+- **Database:** JSON (local data simulation)
+- **Version Control:** Git + GitHub
+- **Design:** Professional, dark-themed JRU color scheme
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
+src/
+├── pages/
+│ ├── Login.jsx
+│ ├── Register.jsx
+│ ├── CampusMap.jsx
+│ ├── AdminDashboard.jsx
+│ ├── *.css
+├── users.json
+├── attendance.json
+├── App.jsx
+├── server.js
+├── register_user.php
+├── mark_attendance.php
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛡️ Security Testing (OWASP ZAP)
+Security was tested using **OWASP ZAP**:
+- Input validation on forms.
+- Protection from basic XSS and SQL injection via sanitization.
+- Proper authentication flow verification.
+- Secure handling of user sessions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👨‍🏫 User’s Manual (Step-by-Step Guide)
 
-## Learn More
+1. **Login**
+   - Open the website.
+   - Enter your **Student ID** and **Password**.
+   - Click **Login** to access the system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Register**
+   - Click **Register** on the Login page.
+   - Fill up your **Student ID, Name, and Password**.
+   - Click **Submit** to create an account.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Admin Access**
+   - Admins can log in using their credentials.
+   - Use the sidebar to view reports, attendance, and campus map.
 
-### Code Splitting
+4. **View Campus Map**
+   - Navigate the interactive 2D/3D map using mouse drag or zoom.
+   - Click markers to see faculty details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧑‍💼 Developer
+**Carl Angelo Patano**  
+Bachelor of Science in Information Technology  
+Jose Rizal University  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
