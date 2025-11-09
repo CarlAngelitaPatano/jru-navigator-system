@@ -51,3 +51,62 @@ This system provides interactive campus features for students and administrators
 ---
 
 ## 📂 Project Structure
+src/
+├── pages/
+│ ├── Login.jsx
+│ ├── Register.jsx
+│ ├── CampusMap.jsx
+│ ├── AdminDashboard.jsx
+│ ├── *.css
+├── users.json
+├── attendance.json
+├── App.jsx
+├── server.js
+├── register_user.php
+├── mark_attendance.php
+
+
+---
+
+## 🛡️ Security Testing (OWASP ZAP)
+Security was tested using **OWASP ZAP**:
+- Input validation on forms.
+- Protection from basic XSS and SQL injection via sanitization.
+- Proper authentication flow verification.
+- Secure handling of user sessions.
+
+---
+
+## 👨‍🏫 User’s Manual (Step-by-Step Guide)
+
+1. **Login**
+   - Open the website.
+   - Enter your **Student ID** and **Password**.
+   - Click **Login** to access the system.
+
+2. **Register**
+   - Click **Register** on the Login page.
+   - Fill up your **Student ID, Name, and Password**.
+   - Click **Submit** to create an account.
+
+3. **Admin Access**
+   - Admins can log in using their credentials.
+   - Use the sidebar to view reports, attendance, and campus map.
+
+4. **View Campus Map**
+   - Navigate the interactive 2D/3D map using mouse drag or zoom.
+   - Click markers to see faculty details.
+
+---
+
+## 🧑‍💼 Developer
+**Carl Angelo Patano**  
+Bachelor of Science in Information Technology  
+Jose Rizal University  
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+
